@@ -1,16 +1,16 @@
 {
   "name": "@bit/dannyets.infrastructure.factories",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://bit.dev/dannyets/infrastructure/factories",
   "main": "dist/factories/index.js",
   "dependencies": {
     "winston": "^3.2.1",
     "express": "^4.17.1",
     "joi": "^14.3.1",
-    "@bit/dannyets.infrastructure.utils": "file:../utils",
-    "@bit/dannyets.infrastructure.models": "file:../models",
-    "@bit/dannyets.infrastructure.middlewares": "1.1.1",
-    "@bit/dannyets.infrastructure.services": "1.1.1"
+    "@bit/dannyets.infrastructure.utils": "1.1.1",
+    "@bit/dannyets.infrastructure.models": "1.1.1",
+    "@bit/dannyets.infrastructure.middlewares": "file:../middlewares",
+    "@bit/dannyets.infrastructure.services": "file:../services"
   },
   "devDependencies": {},
   "peerDependencies": {},

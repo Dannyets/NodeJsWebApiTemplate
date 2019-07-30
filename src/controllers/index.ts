@@ -3,7 +3,7 @@ import { router as tempRouter } from './temp.controller';
 
 const routes: Route[] = [
     {
-        route: '/api/product',
+        route: '/api/temp',
         router: tempRouter,
     },
 ];

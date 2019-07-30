@@ -48,9 +48,13 @@
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "winston": "^3.2.1",
-    "@bit/dannyets.infrastructure.repositories": "file:./components/repositories",
-    "@bit/dannyets.infrastructure.models": "file:./components/models",
+    "@bit/dannyets.infrastructure.clients": "file:./components/clients",
+    "@bit/dannyets.infrastructure.index": "file:./components/index",
+    "@bit/dannyets.infrastructure.middlewares": "file:./components/middlewares",
+    "@bit/dannyets.infrastructure.services": "file:./components/services",
     "@bit/dannyets.infrastructure.factories": "file:./components/factories",
+    "@bit/dannyets.infrastructure.models": "file:./components/models",
+    "@bit/dannyets.infrastructure.repositories": "file:./components/repositories",
     "@bit/dannyets.infrastructure.utils": "file:./components/utils"
   },
   "bit": {

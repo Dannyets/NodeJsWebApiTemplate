@@ -1,10 +1,10 @@
 {
-  "name": "@bit/dannyets.infrastructure.repositories",
+  "name": "@bit/dannyets.infrastructure.clients",
   "version": "1.1.1",
-  "homepage": "https://bit.dev/dannyets/infrastructure/repositories",
-  "main": "dist/repositories/index.js",
+  "homepage": "https://bit.dev/dannyets/infrastructure/clients",
+  "main": "dist/clients/index.js",
   "dependencies": {
-    "uuid": "^3.3.2",
+    "axios": "^0.19.0",
     "@bit/dannyets.infrastructure.models": "1.1.1",
     "@bit/dannyets.infrastructure.utils": "1.1.1"
   },

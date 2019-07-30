@@ -4,7 +4,7 @@ dotenv.config();
 
 import { app } from './app';
 import { configUtils } from '@components/utils';
-import { ConfigKey } from './models';
+import { ConfigKey } from '@components/models';
 
 const port = configUtils.get<number>(ConfigKey.ServerPort);
 

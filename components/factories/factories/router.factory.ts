@@ -8,7 +8,7 @@ import { validationMiddleware, securityMiddleware } from '../middlewares';
 function createDefaultRouter<T extends Entity>(repository: Repository<T>,
                                                logger: Logger,
                                                validationSchema?: SchemaLike) {
-    const crudService = new CrudService<T>(repository, logger);
+    const crudService = new CrudService(repository, logger);
 
     const router = express.Router();
 

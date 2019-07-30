@@ -1,10 +1,12 @@
 {
-  "name": "@bit/dannyets.infrastructure.repositories",
+  "name": "@bit/dannyets.infrastructure.middlewares",
   "version": "1.1.1",
-  "homepage": "https://bit.dev/dannyets/infrastructure/repositories",
-  "main": "dist/repositories/index.js",
+  "homepage": "https://bit.dev/dannyets/infrastructure/middlewares",
+  "main": "dist/middlewares/index.js",
   "dependencies": {
-    "uuid": "^3.3.2",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "@bit/dannyets.infrastructure.clients": "file:../clients",
     "@bit/dannyets.infrastructure.models": "1.1.1",
     "@bit/dannyets.infrastructure.utils": "1.1.1"
   },

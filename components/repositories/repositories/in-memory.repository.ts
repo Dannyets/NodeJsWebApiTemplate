@@ -30,6 +30,8 @@ export class InMemoryRepository<T extends Entity> implements Repository<T> {
     public add = async (entity: T) => {
         await generalUtils.delay(1000);
 
+        console.log('Trying to add entity: ', entity);
+        
         entity.id = uuid();
 
         this.data.push(entity);
