@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import { app } from './app';
-import { configUtils } from '@components/utils';
-import { ConfigKey } from '@components/models';
+import { configUtils } from '@infra/utils';
+import { ConfigKey } from '@infra/models';
 
 const port = configUtils.get<number>(ConfigKey.ServerPort);
 

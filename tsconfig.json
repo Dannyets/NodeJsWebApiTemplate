@@ -19,10 +19,11 @@
                 "node_modules/*",
                 "src/types/*",
             ],
-            "@components/*": ["components/*"]
+            "@infra/*": ["node_modules/@bit/dannyets.infrastructure.*"]
         },
         "resolveJsonModule": true,
         "sourceMap": true,
-        "strict": true
+        "strict": true,
+        "declaration": true
     }
 }

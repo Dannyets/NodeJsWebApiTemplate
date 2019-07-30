@@ -2,8 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import { routes } from './controllers';
 import expressWinston from 'express-winston';
-import { logUtils } from '@components/utils';
-import { Route } from '@components/models';
+import { logUtils } from '@infra/utils';
+import { Route } from '@infra/models';
 
 const app = express();
 

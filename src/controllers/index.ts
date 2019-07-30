@@ -1,4 +1,4 @@
-import { Route } from '@components/models';
+import { Route } from '@infra/models';
 import { router as tempRouter } from './temp.controller';
 
 const routes: Route[] = [

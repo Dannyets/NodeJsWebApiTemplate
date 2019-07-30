@@ -1,5 +1,5 @@
-import { InMemoryRepository } from '@components/repositories';
-import { createRepository } from '@components/factories';
+import { InMemoryRepository } from '@infra/repositories';
+import { createRepository } from '@infra/factories';
 import { Temp } from '../models';
 
 const tempRepository = createRepository<Temp>(
